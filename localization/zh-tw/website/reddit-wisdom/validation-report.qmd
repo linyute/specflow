@@ -1,0 +1,117 @@
+---
+title: "Reddit 智慧資料驗證報告"
+description: "將摘要主張與實際 Reddit CSV 資料比對的驗證報告"
+---
+
+## 概覽
+
+本報告驗證我們摘要檔案中的主張，並與實際 Reddit 貼文 CSV 資料比對。分析涵蓋 47 篇貼文，時間範圍自 2024 年 1 月 4 日至 2025 年 6 月 4 日。
+
+## 主要指標驗證
+
+### 貼文數量
+- **主張**：47 篇貼文
+- **實際**：47 篇貼文
+- **狀態**：✅ 一致
+
+### 日期範圍
+- **主張**：2024/1/4 - 2025/6/4
+- **實際**：2024/1/4 - 2025/6/4
+- **狀態**：✅ 一致
+
+### 子版分布
+- **主張**：
+  - r/cursor: 25
+  - r/ChatGPTCoding: 14
+  - r/ClaudeAI: 5
+- **實際**：
+  - r/cursor: 25
+  - r/ChatGPTCoding: 14
+  - r/ClaudeAI: 5
+  - r/ZedEditor: 1
+  - r/GitHubCopilot: 1
+  - r/webdev: 1
+- **狀態**：⚠️ 核心子版一致，但多出 3 篇來自其他子版
+
+### 成長率分析
+- **主張**：517% 成長
+- **實際**：466.7% 成長
+- **差異**：50.3%
+- **狀態**：⚠️ 成長率計算略有差異
+
+## 高分貼文驗證
+
+以下為資料集中分數最高的貼文：
+
+1. **「終極 vibe coding 指南」** by PhraseProfessional54（420 分）
+   - 子版：r/ClaudeAI
+   - 日期：2025/5/9
+
+2. **「懶人 AI 編程指南」** by illusionst（410 分）
+   - 子版：r/ClaudeAI
+   - 日期：2024/9/7
+
+3. **「Cursor vibe coding 指南更新（500 星）」** by EnzeDfu（354 分）
+   - 子版：r/cursor
+   - 日期：2025/4/24
+
+4. **「GOAT 工作流程」** by RonaldTheRight（313 分）
+   - 子版：r/ChatGPTCoding
+   - 日期：2024/12/20
+
+5. **「終極 vibe coding 指南」** by PhraseProfessional54（300 分）
+   - 子版：r/cursor
+   - 日期：2025/5/9（跨版貼文）
+
+## 其他洞察
+
+### 異常高分貼文
+部分貼文分數為該子版平均的 3 倍以上：
+- 「終極 vibe coding 指南」（r/cursor 300 分）
+- 「Cursor vibe coding 指南更新（500 星）」（r/cursor 354 分）
+- 「我的 Cursor AI 工作流程」（r/cursor 300 分）
+- 「GOAT 工作流程」（r/ChatGPTCoding 313 分）
+
+### 主要貢獻者
+- **namanyayg**：4 篇貼文
+- **punkouter23**：3 篇貼文
+
+## 各季分布
+
+```{mermaid}
+graph TB
+    subgraph "2024"
+        Q1_24["2024 Q1<br/>3 篇貼文"]
+        Q2_24["2024 Q2<br/>8 篇貼文"]
+        Q3_24["2024 Q3<br/>5 篇貼文"]
+        Q4_24["2024 Q4<br/>9 篇貼文"]
+    end
+    
+    subgraph "2025"
+        Q1_25["2025 Q1<br/>10 篇貼文"]
+        Q2_25["2025 Q2<br/>12 篇貼文"]
+    end
+    
+    style Q2_25 fill:#2ecc71,stroke:#27ae60,stroke-width:2px
+```
+
+## 資料品質評估
+
+- **URL 驗證**：所有 Reddit 連結皆有效且格式正確
+- **日期一致性**：所有日期均在預期範圍內
+- **分數分布**：分數介於 1 到 420，集中於 10-50 分區間
+- **內容完整性**：所有貼文均含標題與主文內容
+
+## 結論
+
+摘要檔案的核心主張大致正確：
+- 貼文總數完全一致
+- 日期範圍正確
+- 主要子版分布準確
+- 成長率僅有小幅差異（466.7% vs 主張 517%）
+
+唯一明顯差異是多出 3 篇來自其他子版（r/ZedEditor、r/GitHubCopilot、r/webdev），雖未在摘要檔提及，但不影響整體敘事，僅補充 AI 編程討論在 Reddit 的廣度。
+
+---
+
+**免責聲明**：本文件由 [GitHub Copilot](https://docs.github.com/copilot/about-github-copilot/what-is-github-copilot) 在本地化過程中產生，因此可能包含錯誤。如發現任何不當或錯誤翻譯，請至[問題頁面](../../issues)回報。

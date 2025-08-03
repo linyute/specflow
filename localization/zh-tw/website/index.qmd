@@ -1,0 +1,219 @@
+---
+title: "Specflow 是用軟體 agent 建構的結構化方法"
+page-layout: full
+toc: false
+image: "/assets/og-image.png"
+---
+
+<style>
+.quarto-title-block {
+  text-align: center;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.quarto-title h1.title {
+  text-align: center;
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+</style>
+
+::: {.hero-banner}
+# 以目標與精準為本建構軟體
+
+運用 **開放式 Specflow** 方法，透過結構化規劃與反覆執行，將意圖轉化為軟體，並與軟體 agent 協作。
+
+::: {.hero-buttons}
+[開始使用](getting-started.qmd){.btn .btn-primary .btn-lg}
+[了解原因](why-plan-first.qmd){.btn .btn-outline-primary .btn-lg}
+:::
+:::
+
+## 核心理念
+
+> 「先規劃，後執行。每一棟偉大的建築都始於藍圖，每一個成功的軟體專案都始於計畫。」
+
+Specflow 強調有效運用現今的 SWE agent。只要結構化你的流程，每個提示、每個任務、每個產出都能服務你的目標。
+
+## 用 AI 建構軟體的兩種方式
+
+成功與挫折的差異，往往取決於結構與累積的決策。缺乏規劃的開發最終導致混亂，而 Specflow 則帶來清晰與可預期的成果。
+
+::: {.columns}
+
+::: {.column width="48%"}
+::: {style="text-align: center;"}
+### 沒有結構：混亂
+:::
+
+::: {style="max-width: 400px; margin: 0 auto; text-align: center;"}
+```{mermaid}
+%%{init: {'theme':'base', 'themeVariables': {'primaryColor': '#f9f9f9'}}}%%
+graph TD
+    A[模糊想法] --> B[AI 提示]
+    B --> C[錯誤產出]
+    C --> D[再試一次]
+    D --> E[更多提示]
+    E --> F[整合問題]
+    F --> G[重構]
+    G --> H[也許成功?]
+    
+    B --> I[死胡同]
+    E --> J[技術債]
+    
+    style C fill:#ffcccc
+    style I fill:#ffcccc
+    style J fill:#ffcccc
+    style F fill:#fff3cd
+    style G fill:#fff3cd
+```
+:::
+:::
+
+::: {.column width="4%"}
+:::
+
+::: {.column width="48%"}
+::: {style="text-align: center;"}
+### 有 Specflow：清晰
+:::
+
+::: {style="max-width: 400px; margin: 0 auto; text-align: center;"}
+```{mermaid}
+%%{init: {'theme':'base', 'themeVariables': {'primaryColor': '#f9f9f9'}}}%%
+graph TD
+    A[明確意圖] --> B[結構化路線圖]
+    B --> C[聚焦工作計畫]
+    C --> D[一致產出]
+    D --> G[反覆優化]
+    G --> C
+    G --> E[整合解決方案]
+    E --> F[成功]
+    
+    style G fill:#e0f2fe
+    style F fill:#d1fae5
+```
+:::
+:::
+
+:::
+
+## 流程
+
+這個流程看似簡單卻非常強大。每一步都建立在前一步之上，從概念到完成，路徑清晰。
+
+::: {style="display: flex; align-items: stretch; justify-content: center; gap: 0.5rem; margin: 2rem auto; max-width: 1400px; overflow-x: auto;"}
+
+::: {style="flex: 0 0 auto; width: 185px; padding: 1rem; background: #f8f9fa; border: 2px solid #02B9D9; border-radius: 8px; text-align: center;"}
+#### 1. 意圖
+**定義目標**
+
+什麼 & 為什麼
+:::
+
+::: {style="flex: 0 0 auto; align-self: center; font-size: 1.5rem; color: #02B9D9; padding: 0 0.25rem;"}
+→
+:::
+
+::: {style="flex: 0 0 auto; width: 185px; padding: 1rem; background: #f8f9fa; border: 2px solid #02B9D9; border-radius: 8px; text-align: center;"}
+#### 2. 路線圖
+**規劃階段**
+
+里程碑
+:::
+
+::: {style="flex: 0 0 auto; align-self: center; font-size: 1.5rem; color: #02B9D9; padding: 0 0.25rem;"}
+→
+:::
+
+::: {style="flex: 0 0 auto; width: 185px; padding: 1rem; background: #f8f9fa; border: 2px solid #02B9D9; border-radius: 8px; text-align: center;"}
+#### 3. 任務
+**拆解細項**
+
+人類 + AI
+:::
+
+::: {style="flex: 0 0 auto; align-self: center; font-size: 1.5rem; color: #02B9D9; padding: 0 0.25rem;"}
+→
+:::
+
+::: {style="flex: 0 0 auto; width: 185px; padding: 1rem; background: #f8f9fa; border: 2px solid #02B9D9; border-radius: 8px; text-align: center;"}
+#### 4. 執行
+**協作建構**
+
+系統化
+:::
+
+::: {style="flex: 0 0 auto; align-self: center; font-size: 1.5rem; color: #02B9D9; padding: 0 0.25rem;"}
+→
+:::
+
+::: {style="flex: 0 0 auto; width: 185px; padding: 1rem; background: #f8f9fa; border: 2px solid #02B9D9; border-radius: 8px; text-align: center;"}
+#### 5. 優化
+**反覆學習**
+
+持續改進
+:::
+
+:::
+
+## 為什麼選擇 Specflow？
+
+除了原型開發之外，靠感覺驅動的 SWE agent 軟體建構方式常常導致：
+
+- **產出不符**，無法反映你的意圖。
+- **浪費時間**，反覆迭代卻偏離目標。
+- **結果零散**，缺乏協調。
+- **上下文流失**，各階段間脈絡斷裂。
+
+Specflow 解決這些問題：
+
+::: {.features}
+-  **結構化規劃**：從想法到實作，步步清晰
+-  **人機協作**：人類與 agent 最佳分工
+-  **反覆優化**：流程中持續改進
+-  **上下文保留**：始終與原始意圖一致
+:::
+
+## 立即開始
+
+::: {style="background-color: #f8f9fa; padding: 3rem 2rem; border-radius: 8px; text-align: center; margin: 3rem 0;"}
+
+### 準備好用 AI 改變你的軟體建構方式了嗎？
+
+::: {style="display: flex; flex-wrap: wrap; gap: 2rem; justify-content: center; margin-top: 2rem;"}
+
+::: {style="flex: 1; min-width: 250px; max-width: 350px; padding: 1.5rem; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"}
+#### 📚 學習方法
+[**從指南開始**](getting-started.qmd){.btn .btn-primary style="margin-top: 1rem;"}
+
+用我們的完整分步指南，精通 Specflow 方法論。
+:::
+
+::: {style="flex: 1; min-width: 250px; max-width: 350px; padding: 1.5rem; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"}
+#### 🚀 實際應用
+[**探索範例**](examples/index.qmd){.btn .btn-primary style="margin-top: 1rem;"}
+
+真實案例，從概念到完成展現 Specflow。
+:::
+
+::: {style="flex: 1; min-width: 250px; max-width: 350px; padding: 1.5rem; background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"}
+#### 📖 深入研究
+[**查閱參考文件**](reference/index.qmd){.btn .btn-primary style="margin-top: 1rem;"}
+
+完整文件，涵蓋進階技巧與最佳實踐。
+:::
+
+:::
+:::
+
+---
+
+::: {.text-center .text-muted}
+Specflow 是促進人機協作、提升軟體開發品質的開放方法論。
+:::
+
+---
+
+**免責聲明**：本文件由 [GitHub Copilot](https://docs.github.com/copilot/about-github-copilot/what-is-github-copilot) 在本地化過程中產生，因此可能包含錯誤。如發現任何不當或錯誤翻譯，請至[問題頁面](../../issues)回報。

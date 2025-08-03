@@ -1,0 +1,105 @@
+---
+title: "Specflow 影片教學"
+subtitle: "透過視覺化展示與指南學習 Specflow"
+---
+
+## 入門影片
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 2rem; margin: 3rem 0;"}
+
+::: {style="background: #f8f9fa; padding: 1.5rem; border-radius: 8px; border: 1px solid #e1e4e8;"}
+### 🎬 Specflow 介紹
+**長度**：5 分鐘
+
+快速認識 Specflow 方法論，以及它在 AI 協作開發中的重要性。
+
+*即將推出*
+:::
+
+::: {style="background: #f8f9fa; padding: 1.5rem; border-radius: 8px; border: 1px solid #e1e4e8;"}
+### 📝 第一個 Specflow 專案
+**長度**：15 分鐘
+
+帶你從頭到尾實作第一個 Specflow 專案。
+
+*即將推出*
+:::
+
+:::
+
+## 深度解析
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 2rem; margin: 3rem 0;"}
+
+::: {style="background: #f8f9fa; padding: 1.5rem; border-radius: 8px; border: 1px solid #e1e4e8;"}
+### 🎯 精通意圖捕捉
+**長度**：10 分鐘
+
+學習如何清楚表達專案願景，讓 AI 代理能理解並執行。
+
+*即將推出*
+:::
+
+::: {style="background: #f8f9fa; padding: 1.5rem; border-radius: 8px; border: 1px solid #e1e4e8;"}
+### 🗺️ 有效路線圖規劃
+**長度**：12 分鐘
+
+探索如何將複雜專案拆解為可管理的階段，逐步完成。
+
+*即將推出*
+:::
+
+:::
+
+## 實務應用
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 2rem; margin: 3rem 0;"}
+
+::: {style="background: #f8f9fa; padding: 1.5rem; border-radius: 8px; border: 1px solid #e1e4e8;"}
+### 🚀 SaaS MVP 建構
+**長度**：30 分鐘
+
+示範如何用 Specflow 從概念到部署，打造完整 SaaS MVP。
+
+*即將推出*
+:::
+
+::: {style="background: #f8f9fa; padding: 1.5rem; border-radius: 8px; border: 1px solid #e1e4e8;"}
+### 🔧 重構舊有程式碼
+**長度**：20 分鐘
+
+展示 Specflow 如何協助 AI 管理複雜重構專案。
+
+*即將推出*
+:::
+
+:::
+
+## 社群指南
+
+你有製作 Specflow 教學嗎？歡迎投稿，讓我們在此展示！請透過社群管道提交你的影片。
+
+---
+
+::: {style="background-color: #e0f2fe; padding: 2rem; border-radius: 8px; text-align: center; margin: 3rem 0;"}
+### 📹 想看特定主題？
+
+[提出影片主題需求](#){.btn .btn-primary}
+
+我們持續製作新影片，歡迎回饋協助我們優先製作你想看的內容。
+:::
+
+## 最新消息
+
+訂閱我們的頻道，第一時間獲得新影片通知：
+
+- **YouTube**：[Specflow 頻道](#)（即將推出）
+- **電子報**：影片更新直接寄送到你的信箱
+
+---
+
+*影片庫即將上線，敬請定期回來查看最新內容！*
+
+---
+
+**免責聲明**：本文件由 [GitHub Copilot](https://docs.github.com/copilot/about-github-copilot/what-is-github-copilot) 翻譯，可能包含錯誤。如發現不當或錯誤翻譯，請至 [issue](../../issues) 回報。

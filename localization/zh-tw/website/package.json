@@ -1,0 +1,9 @@
+{
+  "name": "specflow-website",
+  "version": "1.0.0",
+  "description": "Specflow methodology website",
+  "scripts": {
+    "build": "quarto render",
+    "preview": "quarto preview"
+  }
+}

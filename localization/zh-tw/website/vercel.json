@@ -1,0 +1,30 @@
+{
+  "buildCommand": "curl -LO https://github.com/quarto-dev/quarto-cli/releases/download/v1.4.553/quarto-1.4.553-linux-amd64.tar.gz && tar -xzf quarto-1.4.553-linux-amd64.tar.gz && mv quarto-1.4.553 /tmp/ && export PATH=/tmp/quarto-1.4.553/bin:$PATH && quarto render",
+  "outputDirectory": "_site",
+  "framework": null,
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/$1"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "key": "X-XSS-Protection",
+          "value": "1; mode=block"
+        }
+      ]
+    }
+  ]
+}

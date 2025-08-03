@@ -1,0 +1,110 @@
+project:
+  type: website
+  resources:
+    - data/posts.json
+    - data/posts-data.js
+    - data/validation-report.json
+
+website:
+  title: "Specflow is structure for building with software agents"
+  description: "Use the open Specflow method to turn intent into software through structured planning and iterative execution with software agents."
+  site-url: "https://www.specflow.com"
+  favicon: "assets/favicon.ico"
+  search:
+    location: navbar
+    type: overlay
+    copy-button: true
+  open-graph:
+    title: "Specflow - Structure for Building with AI Agents"
+    description: "Use the open Specflow method to turn intent into software through structured planning and iterative execution with software agents."
+    image: "https://www.specflow.com/assets/og-image.png"
+    site-name: "Specflow"
+  twitter-card:
+    title: "Specflow - Structure for Building with AI Agents"
+    description: "Use the open Specflow method to turn intent into software through structured planning and iterative execution with software agents."
+    image: "https://www.specflow.com/assets/og-image.png"
+    card-style: "summary_large_image"
+  navbar:
+    background: primary
+    logo: assets/specflow_light.svg
+    logo-alt: "Specflow"
+    title: false
+    left:
+      - href: index.qmd
+        text: Home
+      - href: why-plan-first.qmd
+        text: Why Plan First
+      - href: about.qmd
+        text: About
+      - href: getting-started.qmd
+        text: Getting Started
+      - text: Learn
+        menu:
+          - href: examples/index.qmd
+            text: Project Examples
+          - href: videos.qmd
+            text: Videos
+          - href: reference/index.qmd
+            text: Reference
+          - href: reddit-wisdom/index.qmd
+            text: Reddit Wisdom
+          - href: reddit-wisdom/evolution/index.qmd
+            text: "  → Evolution Story"
+          - href: reddit-wisdom/guides/index.qmd
+            text: "  → Breakthrough Guides"
+          - href: reddit-wisdom/patterns/index.qmd
+            text: "  → Patterns"
+          - href: reddit-wisdom/contributors/index.qmd
+            text: "  → Contributors"
+    right:
+      - icon: github
+        href: https://github.com/specstoryai/specflow
+        aria-label: GitHub
+  page-footer:
+    center: |
+      &copy; 2025 <a href="https://www.specstory.com" target="_blank">SpecStory</a> - Intent is the new source code
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true
+    toc-depth: 3
+    toc-location: right
+    anchor-sections: true
+    smooth-scroll: true
+    mermaid:
+      theme: default
+    include-in-header:
+      - text: |
+          <script>
+            window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+          </script>
+          <script defer src="/_vercel/insights/script.js"></script>
+          <script>
+            document.addEventListener('DOMContentLoaded', function() {
+              // Create WIP notification element
+              const wipNotification = document.createElement('li');
+              wipNotification.className = 'nav-item';
+              wipNotification.innerHTML = '<span class="navbar-wip">🚧 WIP as of <span id="wip-date"></span> - content may change until official release</span>';
+              
+              // Find the navbar and insert the notification
+              const navbar = document.querySelector('.navbar-nav');
+              if (navbar) {
+                navbar.appendChild(wipNotification);
+              }
+              
+              // Update the date
+              const dateElement = document.getElementById('wip-date');
+              if (dateElement) {
+                const today = new Date();
+                const options = { month: 'long', day: 'numeric', year: 'numeric' };
+                dateElement.textContent = today.toLocaleDateString('en-US', options);
+              }
+            });
+          </script>
+
+
+
